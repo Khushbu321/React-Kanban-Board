@@ -1,0 +1,49 @@
+.addButton{
+    color: grey;
+    border-radius: 50%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    background: white;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.card-container {
+    display: flex;
+    height: calc(100vh - 30px);
+}
+
+.button{
+    visibility: hidden;
+}
+
+.closeDialog{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 3px;
+}
+
+.textBox{
+    width: 100%;
+    border: none;
+    background: transparent;
+}
+
+.inputDialog{
+    position: fixed;
+    top: 150px;
+    left: 500px;
+    margin: auto;
+    height: 100px;
+    width: 300px;
+    background: #ded4d4;
+    opacity: 1;
+    z-index: 999;
+}

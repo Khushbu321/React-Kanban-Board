@@ -1,0 +1,53 @@
+.headingDialog{
+  font-weight: 500;
+  padding: 5px;
+  margin: 4px;
+  font-size: 20px;
+}
+
+.ul
+{
+  list-style-type: none;
+  padding: 1px;
+  height: 200px;
+  overflow: auto;
+}
+
+.strikeThrough{
+  text-decoration: line-through;
+}
+
+.listItem{
+  border-radius: 2px;
+  height: 3px;
+  margin: 2px 2px 4px 2px;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
+.button{
+    visibility: hidden;
+}
+
+.textBox{
+    width: 90%;
+    border: none;
+    background: transparent;
+}
+
+.checkbox{
+  display: block;
+  padding: 5px;
+  margin: 4px;
+}
+
+.addAItem{
+  position: absolute;
+    bottom: -20px;
+    left: -3px;
+    color: #a5a0a0;
+    width: 100px;
+    padding: 10px;
+}
